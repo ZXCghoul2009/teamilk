@@ -1,0 +1,74 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/images/Ellipse2.svg') no-repeat;
+    position: absolute;
+    bottom: -10px;
+    height: 88.86px;
+    width: 100vw;
+    background-size: 100%;
+    z-index: 2;
+}
+
+.footer a {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#C3A155;
+    font-family: Caveat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+}
+.footer a p{
+    color:#C3A155;
+    font-family: Caveat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+.nav {
+    background: #FAF8F8B2;
+    border-radius: 60.75px 60.75px 0 0;
+    padding:116px 0 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.header {
+    position:static;
+    top: -10px;
+    width: 100vw;
+    background-size: 100%;
+}
+.logo_bg {
+    background: url('../../assets/images/Ellipse1.svg') no-repeat;
+    height: 251.17px;
+    width: 100vw;
+    background-size: 100%;
+    z-index: 0;
+}
+
+.logo {
+    position: relative;
+    left: 2.0625rem;
+    top: 2.0625rem;
+}
+
+.teamilkImage{
+    position: absolute;
+    top: 3rem;
+    right: 0;
+}

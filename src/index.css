@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'BlackBerry';
+  src: url('../src/assets/blackberry-normal_version_02.otf') format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: 'BlackBerry', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  height: inherit;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100vh;
+  background-color: red;
+}
