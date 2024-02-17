@@ -1,5 +1,5 @@
 
-import { Button } from '../../components/UI/Button/Button';
+//import { Button } from '../../components/UI/Button/Button';
 import instagram from '../../assets/images/instagram.svg';
 import logo from '../../assets/images/Logo.svg';
 import teamilkImage from '../../assets/images/teaImageHeader.svg';
