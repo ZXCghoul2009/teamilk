@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Button } from '../../components/UI/Button/Button';
 import instagram from '../../assets/images/instagram.svg';
 import logo from '../../assets/images/Logo.svg';
