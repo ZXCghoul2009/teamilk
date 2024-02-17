@@ -8,11 +8,11 @@
     justify-content: center;
     align-items: center;
     background: url('../../assets/images/Ellipse2.svg') no-repeat;
-    position: sticky;
-    bottom: 0;
-    height: 88.86px;
+    margin-top: 50px;
+    height: 88px;
     width: 100vw;
-    background-size: 100%;
+    background-size: 100% ;
+    background-position: bottom;
     z-index: 2;
 }
 
