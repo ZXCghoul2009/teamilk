@@ -1,9 +1,12 @@
+.footer_container {
+    background: #FAF8F8B2;
+}
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background: url('../../assets/images/Ellipse2.svg') no-repeat;
-    position: absolute;
+    position: relative;
     bottom: -10px;
     height: 88.86px;
     width: 100vw;
@@ -46,6 +49,8 @@
     justify-content: center;
     flex-direction: column;
     gap: 25px;
+    z-index: 2;
+    margin-top: 1.3125rem;
 }
 .header {
     position:static;
@@ -55,13 +60,20 @@
 }
 .logo_bg {
     background: url('../../assets/images/Ellipse1.svg') no-repeat;
-    height: 251.17px;
+    height: 177px;
+    max-height: 250px;
     width: 100vw;
     background-size: 100%;
-    z-index: 0;
     position: absolute;
+    background-position: center;
 }
-
+.bubleTeaIcon {
+    background: url('../../assets/images//BubbleTea.svg') no-repeat;
+    width: 18.52px;
+    height: 28.81px;
+    background-size: 18.52px 28.81px;
+    display: inline-block;
+}
 .logo {
     position: relative;
     left: 2.0625rem;
@@ -70,18 +82,16 @@
 
 .teamilkImage{
     position: absolute;
-    top: 2rem;
+    top: 3rem;
     right: 0;
-    width: 12.625rem;
-    height: 23.6875rem;
+    z-index: 100;
 }
 
 .title {
-    position: relative;
+   z-index: 2;
     width: 219px;
     height: 199px;
-    top: 6.125rem;
-    left: 3.3125rem;
+    padding: 6.125rem 0 0 3.3125rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
