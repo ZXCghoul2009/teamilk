@@ -1,13 +1,15 @@
-.footer_container {
-    background: #FAF8F8B2;
+
+.main {
+    background: #D9D9D9;
 }
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background: url('../../assets/images/Ellipse2.svg') no-repeat;
-    position: relative;
-    bottom: -10px;
+    position: sticky;
+    bottom: 0;
     height: 88.86px;
     width: 100vw;
     background-size: 100%;
@@ -40,23 +42,14 @@
     margin-bottom: 4px;
 }
 
-.nav {
-    background: #FAF8F8B2;
-    border-radius: 60.75px 60.75px 0 0;
-    padding:116px 0 29px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 25px;
-    z-index: 2;
-    margin-top: 1.3125rem;
-}
+
 .header {
     position:static;
     top: -10px;
     width: 100vw;
     background-size: 100%;
+    background-color: #D9D9D9;
+    padding-bottom: 1.3125rem;
 }
 .logo_bg {
     background: url('../../assets/images/Ellipse1.svg') no-repeat;
@@ -66,6 +59,7 @@
     background-size: 100%;
     position: absolute;
     background-position: center;
+    top: -10px;
 }
 .bubleTeaIcon {
     background: url('../../assets/images//BubbleTea.svg') no-repeat;
@@ -121,4 +115,45 @@ line-height: 15px;
 letter-spacing: 0em;
 text-align: center;
     color: #fff;
+}
+.nav {
+    background: #FAF8F8B2;
+    border-radius: 60.75px 60.75px 0 0;
+    padding:116px 0 29px;
+    z-index: 2;
+  
+
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+   
+}
+.nav li{
+    list-style: none;
+    background-color: #D9D9D9;
+    border: 2px solid #C3A155; 
+    border-radius: 60px;
+    padding:  9px 90px 14px 90px;
+    font-family: blackberry;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+.item {
+    font-size:  28px !important;
+line-height: 16px !important;
+letter-spacing: 0em;
+text-align: center;
+padding:9px 50px !important;
+ 
+}
+
+.nav ul li:last-child {
+    padding:  9px 76px 14px 76px !important;
 }
